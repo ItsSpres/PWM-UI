@@ -1,0 +1,11 @@
+{
+  "name": "f100-smartpump-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "start": "python3 -m http.server 8080",
+    "dev": "node serve.js"
+  }
+}
